@@ -1,3 +1,4 @@
+
 /**
 * Template Name: MyResume - v4.10.0
 * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
@@ -384,12 +385,18 @@ h6 {
   overflow-y: auto;
 }
 
- (max-width: 991px) {
+@media (max-width: 991px) {
   #header {
-    width: 300px;
+    width: 200px;
     background: #fff;
     border-right: 1px solid #e6e9ec;
-    left: -300px;
+    left: -500px;
+  }
+}
+
+@media (min-width: 991px) {
+  #main {
+    margin-left: 50px;
   }
 }
 
@@ -463,7 +470,6 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1461,7 +1467,6 @@ section {
   }
 }
 
-}
 .title {
   font-weight: 700; }
 .title.title-up {
@@ -1574,8 +1579,3 @@ section {
 
 .cc-reference .carousel-inner {
   box-shadow: none; }
-
-
-
-
-
