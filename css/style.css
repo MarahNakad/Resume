@@ -365,7 +365,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 567px) {
   [data-aos-delay] {
   }
 }
@@ -384,18 +384,12 @@ h6 {
   overflow-y: auto;
 }
 
-@media (max-width: 991px) {
+ (max-width: 991px) {
   #header {
     width: 300px;
     background: #fff;
     border-right: 1px solid #e6e9ec;
     left: -300px;
-  }
-}
-
-@media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
   }
 }
 
@@ -411,11 +405,6 @@ h6 {
   position: relative;
 }
 
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 160px;
-  }
-}
 
 #hero:before {
   content: "";
@@ -463,11 +452,6 @@ h6 {
 #hero .social-links a:hover {
   color: #0563bb;
 }
-
-@media (max-width: 992px) {
-  #hero {
-    text-align: center;
-  }
 
   #hero h1 {
     font-size: 32px;
@@ -1138,11 +1122,7 @@ section {
   background-color: #0563bb;
 }
 
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -1474,11 +1454,6 @@ section {
   }
 }
 
-@media (min-width:768px) {
-  .container {
-    max-width: 720px
-  }
-}
 
 @media (min-width:992px) {
   .container {
@@ -1486,10 +1461,6 @@ section {
   }
 }
 
-@media (min-width:1200px) {
-  .container {
-    max-width: 1140px
-  }
 }
 .title {
   font-weight: 700; }
